@@ -10,7 +10,7 @@ This repository implements a **Question Answering (QA) system** using **Retrieva
 3. **Augmentation**: The retrieved documents are added as context.
 4. **LLM Processing**: The LLM generates a response using the augmented data.
 
-![RAG Workflow]([images/rag_workflow.png](https://github.com/Shahbodshs/QA-system-with-RAG-evaDB-FAISS/blob/main/Images/download.webp))
+![RAG Workflow]([images/rag_workflow.png](Images/download.webp))
 
 ## 🔹 Components
 
@@ -18,13 +18,5 @@ This repository implements a **Question Answering (QA) system** using **Retrieva
 - **Vector Database**: FAISS for efficient similarity search.
 - **EVA-DB**: For structured retrieval from databases.
 
-![QA System Architecture]([images/qa_architecture.png](https://github.com/Shahbodshs/QA-system-with-RAG-evaDB-FAISS/blob/main/Images/_gcW4KUYDWgbeDOFKxqOx.png))
+![QA System Architecture]([images/qa_architecture.png](Images/_gcW4KUYDWgbeDOFKxqOx.png))
 
-## 🔹 Example Usage
-
-```python
-from rag_model import QA_LLM
-
-qa_system = QA_LLM()
-response = qa_system.answer("What is the impact of climate change?")
-print(response)
