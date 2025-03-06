@@ -10,7 +10,6 @@ This repository implements a **Question Answering (QA) system** using **Retrieva
 3. **Augmentation**: The retrieved documents are added as context.
 4. **LLM Processing**: The LLM generates a response using the augmented data.
 
-![RAG Workflow]([images/rag_workflow.png](Images/download.webp))
 
 ## 🔹 Components
 
