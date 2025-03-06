@@ -90,8 +90,7 @@ This project is inspired by the original work from [pchunduri6/rag-demystified](
 
 The modifications include:
 - **Replacing GPT-4 API with Gemini** to provide free access to LLM-based responses.
-- **Using EVA-DB and FAISS** for efficient document retrieval.
-- **Implementing a subquestion generation system** to improve multi-step reasoning.
+
 
 Credit goes to the original authors for their excellent work in designing an advanced RAG pipeline. This project builds upon their foundation while making it more accessible for users who want a free alternative.
 
